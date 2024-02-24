@@ -5,6 +5,7 @@ import pyautogui
 
 # Defina o caminho para o executável do Tesseract
 caminho = r"C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+
 pytesseract.tesseract_cmd = caminho
 
 time.sleep(5) # tempo para executar o codigo e ir até o navegador abrir o jogo
@@ -32,9 +33,8 @@ while True:
     try:
         # LOOP para cada palavra dentro da lista "texto"
         for p in texto:
-            pyautogui.write(p)  # digita a palavra inteira de uma vez
-            pyautogui.typewrite(p, 0.0001)  # digita a palavra novamente porem letra por letra
-            pyautogui.typewrite(p, 0.0001)  # digita a palavra novamente porem letra por letra
+            pyautogui.write(p, 0.001)  # digita a palavra inteira de uma vez
+            pyautogui.typewrite(p, 0.001)  # digita a palavra novamente porem letra por letra
 
     except:
         pass
