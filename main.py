@@ -33,8 +33,9 @@ class Bot:
                         dark_image=Image.open(os.path.join(image_path, "spacecraft.png")), size=(20, 20))
 
     def view(self):
-        print("iniciando")
+
         self.root = ctk.CTk()
+        self.root.title("ZTYPE - BOT")
         self.root.geometry("400x300")
         self.root.configure(fg_color="#1D053B")
         ctk.set_appearance_mode("light")
