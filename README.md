@@ -1,6 +1,13 @@
 # ztype_Botgame
 
 Bot utilizando reconhecimento de img e texto para auxiliar nas fases do ztype
+Este projeto utiliza o CustomTkinter para a interface gráfica e o Pytesseract para o reconhecimento de imagem, com o objetivo de aprimorar o conhecimento em técnicas de reconhecimento de imagem.
+
+O bot é projetado para analisar a tela de jogo do ZType, identificando elementos de texto, como palavras ou frases que precisam ser digitadas. Ao usar o Pytesseract, ele extrai dados textuais de capturas de tela, permitindo que o bot determine as palavras a serem digitadas.
+
+Com essa configuração, o bot pode ajudar os jogadores reconhecendo palavras ou frases que surgem no jogo, fornecendo assistência ou automatizando sua digitação com precisão e rapidez.
+
+Por meio deste projeto, o objetivo não é apenas criar um bot funcional, mas também aprofundar-se nas complexidades do reconhecimento de imagem, compreendendo suas aplicações e limitações em cenários práticos, como ambientes de jogos.
 
 ---
 
